@@ -15,11 +15,6 @@ int twoPointer(vector<int>& nums){
 
         else nums[++j] = nums[i++];
     }
-    
-    for (int i = 0; i < n; i++)
-    {
-        cout << nums[i] << " ";
-    }
 
     return j+1;
 
