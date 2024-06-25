@@ -22,7 +22,9 @@ int twoPointer(vector<int>& nums){
     }
 
     return j+1;
-    
+
+    // T.C -> O(n)
+    // S.C -> O(1)
 }
 
 int main(){
